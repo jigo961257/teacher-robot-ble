@@ -1,9 +1,8 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import Home from './pages/Home';
-import About from './pages/About';
-import Settings from './pages/Settings';
+import { Link, Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import './index.css';
+import About from './pages/About';
+import Home from './pages/Home';
+import Settings from './pages/Settings';
 
 function App() {
   return (
